@@ -6,14 +6,58 @@
   color: black;
 }
 
-/* .offcanvas{
-  width: 60% !important;
-} */
+.offcanvas{
+  width: 85% !important;
+}
 
 .offcanvas-logo{
   height: auto;
   width: 8rem;
-  margin-left: 80%;
+  /* margin-left: 80%; */
+}
+
+.offcanvas-body{
+  margin-top: 2rem;
+  margin-left: 0.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.offcanvas-body-link{
+  color: black;
+  text-decoration: none;
+}
+
+.offcanvas-body-active-link{
+  text-decoration: underline;
+  color: black;
+}
+
+.offcanvas-body h3{
+  letter-spacing: 0.3rem;
+}
+
+.offcanvas-body img{
+  position: absolute;
+  left: 0;
+  bottom: 0.5rem;
+  width: 100%;
+}
+
+.offcanvas-icons-container{
+  position: absolute;
+  display: flex;
+  justify-content: space-around;
+  /* padding-left: 2rem; */
+  width: 100%;
+  bottom: 2rem;
+  left: 0;
+}
+
+.offcanvas-body-icon{
+  font-size: 3rem;
+  color: #0db2e8
 }
 
 .header-logo-mobile{
