@@ -8,6 +8,12 @@ const Home = () => {
   return (
     <>
       <div className="home-section">
+        <div className="hero-image">
+          <div className="hero-image-titles">
+            <p>No es SÓLO ROPA DEPORTIVA</p>
+            <p>INDUMENTARIA DE CAMPEONES</p>
+          </div>
+        </div>
         <div className="home-cards-general-container">
           <div className="home-jersey-card home-img-card">
             <p>
