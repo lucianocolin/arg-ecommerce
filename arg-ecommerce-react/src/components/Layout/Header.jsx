@@ -44,7 +44,7 @@ const Header = () => {
             <NavLink to="/" className={({ isActive }) => isActive ? 'offcanvas-body-active-link' : 'offcanvas-body-link'}>
               <h3>Mi cuenta</h3>
             </NavLink>
-            <NavLink to="/" className={({ isActive }) => isActive ? 'offcanvas-body-active-link' : 'offcanvas-body-link'}>
+            <NavLink to="/contact" className={({ isActive }) => isActive ? 'offcanvas-body-active-link' : 'offcanvas-body-link'}>
               <h3>Contacto</h3>
             </NavLink>
             <img src={banderita} alt="bandera argentina" />
