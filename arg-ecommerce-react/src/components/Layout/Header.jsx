@@ -13,8 +13,10 @@ import {
   FaInstagram,
   FaFacebook,
   FaTwitter,
-  FaLinkedin,
+  FaLinkedin
 } from "react-icons/fa";
+
+import { BsFillPersonFill } from 'react-icons/bs'
 //react-router
 import { NavLink } from 'react-router-dom';
 
@@ -82,6 +84,10 @@ const Header = () => {
         </Offcanvas>
 
         <img className="header-logo-mobile" src={logo} alt="la tercera logo" />
+
+        <div className="header-icons-container">
+          <BsFillPersonFill className="header-log-icon" />
+        </div>
       </div>
     </>
   );
